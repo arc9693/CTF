@@ -6,12 +6,13 @@ body {
       background: url("../images/1.png");
       background-size: cover;
       background-color: #111 !important;
+      background-attachment: fixed;
       font-family: Iceland;
       min-height: 100vh;
-      position: fixed;
-      width:100vw;
-
+      min-width:100%;
+      background-position:right;
 }
+
 .navbar{
   background:#000;
   color:red;
@@ -22,8 +23,8 @@ body {
   font-size: 1.5rem;
 }
 .main-body
-{   
-    min-height: 60vh;
+{
+    min-height: 100vh;
     color:red;
     font-family: Iceland;
     font-size: 3rem;
@@ -33,8 +34,10 @@ body {
   font-size: 2.5rem;
 }
 #about-text{
-  font-size: 1.5rem;
+  font-size: 3.5vh;
+  line-height: 4vh;
 }
+
 .red{
   color:red !important;
 }
